@@ -13,7 +13,7 @@ const ProductList = () => {
 
   return (
     <div>
-      <h1>Gaming Product</h1>
+      <h1>Gaming Products</h1>
       <ul>
         {products.map((product) => (
           <li key={product._id}>
